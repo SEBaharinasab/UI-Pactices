@@ -135,3 +135,6 @@ html, body {
   text-decoration: none;
   color: #5c6bc0;
 }
+.login .meta-text ul a:hover{
+  text-decoration: underline;
+}
