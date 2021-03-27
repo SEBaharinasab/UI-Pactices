@@ -113,7 +113,7 @@ html, body {
   padding: 0.8rem;
   outline: none;
   border: 0;
-  background-color: limegreen;
+  background-color: #4caf50;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -128,10 +128,10 @@ html, body {
   padding-left: 20px;
   margin-left: 0;
   line-height: 21px;
-  color: #888888;
+  color: #9e9e9e;
 }
 
 .login .meta-text ul a{
   text-decoration: none;
+  color: #5c6bc0;
 }
-/*.login .meta-text ul a*/
