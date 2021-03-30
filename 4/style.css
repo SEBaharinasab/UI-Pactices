@@ -14,3 +14,66 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #719C93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*1111111111111111111111111111111111111111111111111*/
+.login{
+  width: 800px;
+  height: 610px;
+  background-color: #133e45;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+/*22222222222222222222222222222222222222222*/
+.login .light{
+  background: linear-gradient(to left, #ffff0073, transparent);;
+  clip-path: polygon(0 15%, 32.5% 25.5%, 32.5% 73.5%, 0 85%);
+  position: absolute;
+  top: 0;
+  right:0;
+  bottom: 0;
+  left:-200px;
+  z-index: 1;
+}
+/*22222222222222222222222222222222222222222*/
+.login img{
+  width: 270px;
+  position: absolute;
+  left: 28px;
+  top: 143px;
+}
+/*22222222222222222222222222222222222222222*/
+.login .form-container{
+  width: 580px;
+  padding-right: 100px;
+  background-color: #FEBA33;
+  clip-path: polygon(28% 0, 100% 0, 100% 100%, 16% 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.login .form-container .form{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.login .form-container .form .header{
+  display: flex;
+  justify-content: space-between;
+}
+.login .form-container .form .body{
+  display: flex;
+  flex-direction: column;
+
+}
