@@ -14,3 +14,68 @@ html, body {
   width: 100%;
   height: 100%;
 }
+header{
+  padding: 43px 100px 10px;
+}
+header .top {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+header .top .social{
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+header .top .social button{
+  background-color: transparent;
+  border:0;
+
+}
+header .top .social .svg-icon{width: 25px;}
+header .top .social .svg-icon.facebook{fill:#3b5998;}
+header .top .social .svg-icon.twitter{fill:#00acee;}
+header .top .social .svg-icon.instagram{fill:#DD2A7B;}
+
+header .top .logo h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+}
+header .top .logo h1 .dot{
+  color:#f25572;
+}
+header .top .logo{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .top .search{
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .top .search button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e8546c;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+header .top .search svg{
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
+header nav svg{
+/*header svg{*/
+  display: none;
+}
