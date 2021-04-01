@@ -54,7 +54,6 @@ html, body {
 /*22222222222222222222222222222222222222222*/
 .login .form-background{
   width: 580px;
-  /*padding-right: 100px;*/
   background-color: #FEBA33;
   clip-path: polygon(28% 0, 100% 0, 100% 100%, 16% 100%);
   display: flex;
@@ -67,7 +66,7 @@ html, body {
 }
 .login .form-container .form{
   background-color: #fff;
-  width: 260px;
+  width: 280px;
   border-radius: 5px;
   overflow: hidden;
   display: flex;
@@ -129,5 +128,18 @@ html, body {
 }
 .login .form-container .register{
   text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.login .form-container .register p{
+  margin: 0;
+  color: white;
+}
+.login .form-container .register a{
+  color: #232b4e;
+  text-decoration: none;
+}
+.login .form-container .register a:hover{
+  text-decoration: underline;
 }
 
