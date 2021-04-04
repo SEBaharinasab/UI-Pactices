@@ -137,10 +137,13 @@ header nav svg {
 .posts {
   margin: 20px;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .post {
-  width: 25%;
+  width: 23%;
+  margin: 10px 10px 20px;
   position: relative;
 }
 
