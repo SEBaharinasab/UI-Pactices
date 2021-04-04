@@ -133,18 +133,23 @@ header nav svg {
   margin-bottom: -4px;
   margin-left: -4px;
 }
-.posts{
+
+.posts {
   margin: 20px;
   padding: 20px;
 }
-.post{
+
+.post {
   width: 25%;
+  position: relative;
 }
-.post .header{
+
+.post .header {
   height: 400px;
   position: relative;
 }
-.post .header .image{
+
+.post .header .image {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -155,11 +160,13 @@ header nav svg {
   align-items: center;
   overflow: hidden;
 }
-.post .header .image img{
+
+.post .header .image img {
   min-width: 100%;
   min-height: 100%;
 }
-.post .header .status-container{
+
+.post .header .status-container {
   padding: 3px 6px;
   color: white;
   background-color: #7169FE;
@@ -168,10 +175,88 @@ header nav svg {
   top: 25px;
   right: 20px;
 }
-.post .header .count:not(:last-child){
+
+.post .header .status-container .count:not(:last-child) {
   margin-right: 3px;
 }
-.post .header .icon{
+
+.post .header .icon {
   width: 10px;
   display: inline-block
+}
+
+.post .header .title {
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+  left: 30px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.post .header .title a {
+  padding: 8px 0;
+  background-color: #fff;
+  color: #242323;
+  text-decoration: none;
+  text-align: left;
+  line-height: inherit;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.post .body {
+  padding: 30px 10px;
+}
+
+.post .body .meta * {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.post .body .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #424851;
+}
+
+.post .body .meta .image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.post .body .meta .image img {
+  width: 100%;
+}
+
+.post .body .meta .dot {
+  color: #FF486A;
+}
+
+.post .body .text {
+  margin-top: 20px;
+  text-align: center;
+  color: #596172;
+}
+.post .footer {
+  text-align: center;
+  z-index: 10;
+}
+.post .footer .icon {
+  width: 24px;
+  margin-bottom: -6px;
+  color: #FF486A;
+  display: inline-block;
+  transform: scale(-1, 1);
+}
+.post .footer a{
+  font-size: 100%;
+  text-decoration: none;
+  color: #242323;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: color 0.1s;
+}
+.post .footer a:hover{
+  color: #FF486A;
 }
