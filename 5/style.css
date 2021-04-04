@@ -242,10 +242,12 @@ header nav svg {
   text-align: center;
   color: #596172;
 }
+
 .post .footer {
   text-align: center;
   z-index: 10;
 }
+
 .post .footer .icon {
   width: 24px;
   margin-bottom: -6px;
@@ -253,13 +255,15 @@ header nav svg {
   display: inline-block;
   transform: scale(-1, 1);
 }
-.post .footer a{
+
+.post .footer a {
   font-size: 100%;
   text-decoration: none;
   color: #242323;
   font-family: 'Josefin Sans', sans-serif;
   transition: color 0.1s;
 }
-.post .footer a:hover{
+
+.post .footer a:hover {
   color: #FF486A;
 }
