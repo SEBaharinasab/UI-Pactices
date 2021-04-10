@@ -1,0 +1,269 @@
+@font-face {
+  font-family: WorkSans;
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: WorkSans, serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding: 43px 100px 10px;
+}
+
+header .top {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .top .social {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .top .social button {
+  background-color: transparent;
+  border: 0;
+
+}
+
+header .top .social .svg-icon {
+  width: 25px;
+}
+
+header .top .social .svg-icon.facebook {
+  fill: #3b5998;
+}
+
+header .top .social .svg-icon.twitter {
+  fill: #00acee;
+}
+
+header .top .social .svg-icon.instagram {
+  fill: #DD2A7B;
+}
+
+header .top .logo h1 {
+  color: #242323;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+}
+
+header .top .logo h1 .dot {
+  color: #f25572;
+}
+
+header .top .logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .top .search {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .top .search button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #e8546c;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  box-shadow: -1px 2px 7px -1px gray;
+}
+
+header .top .search svg {
+  width: 50%;
+  margin: auto;
+}
+
+
+header nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 20px 13px;
+}
+
+header nav ul li:not(:last-child) {
+  margin-right: 4px;
+}
+
+header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #242323;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+  color: #FF486A;
+}
+
+header nav svg {
+  width: 16px;
+  margin-bottom: -4px;
+  margin-left: -4px;
+}
+
+.posts {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 23%;
+  margin: 10px 10px 20px;
+  position: relative;
+}
+
+.post .header {
+  height: 400px;
+  position: relative;
+}
+
+.post .header .image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.post .header .image img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.post .header .status-container {
+  padding: 3px 6px;
+  color: white;
+  background-color: #7169FE;
+  border-radius: 10px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+.post .header .status-container .count:not(:last-child) {
+  margin-right: 3px;
+}
+
+.post .header .icon {
+  width: 10px;
+  display: inline-block
+}
+
+.post .header .title {
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+  left: 30px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.post .header .title a {
+  padding: 8px 0;
+  background-color: #fff;
+  color: #242323;
+  text-decoration: none;
+  text-align: left;
+  line-height: inherit;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.post .body {
+  padding: 30px 10px;
+}
+
+.post .body .meta * {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.post .body .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #424851;
+}
+
+.post .body .meta .image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.post .body .meta .image img {
+  width: 100%;
+}
+
+.post .body .meta .dot {
+  color: #FF486A;
+}
+
+.post .body .text {
+  margin-top: 20px;
+  text-align: center;
+  color: #596172;
+}
+
+.post .footer {
+  text-align: center;
+  z-index: 10;
+}
+
+.post .footer .icon {
+  width: 24px;
+  margin-bottom: -6px;
+  color: #FF486A;
+  display: inline-block;
+  transform: scale(-1, 1);
+}
+
+.post .footer a {
+  font-size: 100%;
+  text-decoration: none;
+  color: #242323;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: color 0.1s;
+}
+
+.post .footer a:hover {
+  color: #FF486A;
+}
