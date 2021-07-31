@@ -98,7 +98,8 @@ html, body {
   transition: 0.2s;
 }
 
-.login .input input:focus + label {
+.login .input input:focus + label,
+.login .input input:valid + label {
   color: #000;
   font-size: 13px;
   position: absolute;
